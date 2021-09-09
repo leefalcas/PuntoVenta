@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul.tabs {
+	margin:20px auto; background:#e6eaee;
+	padding:0;
+	list-style: none;
+	height: 50px;
+	width: 920px;
+}
+	
+ul.tabs li {
+	float: left;
+	margin:0;
+	padding: 0;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: -1px;
+	background: #e6eaee;
+	overflow: hidden;
+	position: relative;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #a3a3a3;
+	display: block;
+	font-size: 17px;
+	padding: 0;
+	outline: none; text-align:center; cursor:pointer !important;
+}
+ul.tabs li a {width:230px;}
+
+ul.tabs li a:hover {background: #dadada; text-decoration:none !important; color:#211915;}
+	
+ul.tabs li.active a, ul.tabs li.active a:hover  {
+	background: #bf0411; color:#fff !important;
+}
+.tab_container {width: 920px; margin:0 !important;}
+.tab_content {padding: 0; margin:0;}

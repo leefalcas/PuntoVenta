@@ -1,0 +1,2 @@
+  $mbd->exec("INSERT INTO FST_T_DETPEDIDO (DPED_CODCIA,DPED_CABNUMERO,DPED_CODIGO,DPED_ARTICULO,DPED_TIPPRECIO,DPED_COSTOUNI,DPED_CANTIDAD,DPED_IVA,DPED_DESC,DPED_LINEA,DPED_TIPLIN,DPED_CANTCAJA,DPED_PVPMUESTRA,DPED_UNDCAJA,DPED_SERIES) Values('".$cia."','".$CPED_NUMERO."','".$codigo."','".$arti."','".$tipo."','".$preuni."','".$cantidad."','".$iva."','".$descuento."','".$lin."','".$lin."','".$cantidad."','".$preuni."','".$tipo."','".$tipo."')");
+		  
